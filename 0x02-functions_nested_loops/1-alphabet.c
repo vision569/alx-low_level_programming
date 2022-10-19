@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 
 /**
 * main - Prints the alphabet in lowercase.
@@ -6,11 +6,10 @@
  */
 int main(void)
 {
-
 	char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
 
-	for (letter = 'a'; letter <= 'z'; letter++)
- 	         putchar(letter);
+		putchar(letter);
 	putchar('\n');
 return (0);
 }
