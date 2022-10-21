@@ -7,7 +7,6 @@
 #include "main.h"
 
 
-
 /**
  * _isalpha - Checks if a character is alphabetic.
  * @c: The character to be checked.
@@ -24,6 +23,6 @@ int _isalpha(int c)
 
 		return (1);
 
-else
+		else
 
 		return (0);
