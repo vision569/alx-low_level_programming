@@ -7,7 +7,7 @@
  * @n: number of char that will be copied
  * Return: dest
 */
-char _strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int j;
 	int j;
